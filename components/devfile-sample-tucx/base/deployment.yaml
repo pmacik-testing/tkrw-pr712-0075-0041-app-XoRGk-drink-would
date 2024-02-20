@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tucx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0041-tenant/tkrw-pr712-0075-0041-app/devfile-sample-tucx@sha256:e706b22f196d8074afc3b78796206680edf6423ae81bde5cb59ed4ea0ce6dbf5
         name: my-nodejs
         ports:
         - containerPort: 3001
